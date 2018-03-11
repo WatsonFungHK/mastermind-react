@@ -1,8 +1,8 @@
 import * as React from 'react';
-import logo from './logo.svg';
-import Activity from './activity/Activity';
-import Timer from './timer/Timer';
-import History from './history/History'
+import logo from '../logo.svg';
+import Activity from '../container/activity/Activity';
+import Timer from '../container/timer/Timer';
+import History from '../container/history/History'
 // import * as styles from './styles.css';
 import './styles.css';
 
