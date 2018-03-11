@@ -1,5 +1,4 @@
 import * as React from 'react';
-import logo from '../logo.svg';
 import Activity from '../container/activity/Activity';
 import Timer from '../container/timer/Timer';
 import History from '../container/history/History'
