@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './styles.timer.css'
 
 class Timer extends React.Component {
 	timeStamp;
@@ -24,7 +25,7 @@ class Timer extends React.Component {
 
 	render() {
 		return (
-			<h1>{this.state.time.toLocaleTimeString()}</h1>
+			<h1 className="timer">{this.state.time.toLocaleTimeString()}</h1>
 		)
 	}
 	
